@@ -1,0 +1,47 @@
+.heading-xs {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.heading-sm {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.heading-2sm {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.heading-m {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.f-w300 {
+    font-weight: 300;
+}
+
+.f-w500 {
+    font-weight: 500;
+}
+
+.f-w600 {
+    font-weight: 600;
+}
+
+.f-w700 {
+    font-weight: 700;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
