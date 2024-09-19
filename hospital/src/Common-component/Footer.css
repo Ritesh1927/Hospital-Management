@@ -1,0 +1,15 @@
+.footer-main-container{
+    background-color: #122738;
+    height: 70vh;
+}
+ 
+.footer-logo{
+    width: 40%;
+}
+ 
+.department-link-element{
+    list-style: none;
+}
+.footer-department-page-link{
+    text-decoration: none;
+}
