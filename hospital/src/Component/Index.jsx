@@ -6,9 +6,9 @@ import HealthService from "./HealthService";
 function Index() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <AppoinmentPage/>
-      <Footer/>
+      {/* <Footer /> */}
       <HealthService/>
     </div>
   );

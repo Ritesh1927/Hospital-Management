@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import "./Footer.css"
 import{Link ,Routes,Route} from "react-router-dom"
@@ -14,6 +15,12 @@ import { MdOutlineAddLocation } from "react-icons/md";
 
 
 import logo from "../assets/Icons/hospital-logo.webp"
+=======
+import React from "react";
+import "./Footer.css";
+import { Link, Routes, Route } from "react-router-dom";
+import logo from "../assets/Icons/hospital-logo.webp";
+>>>>>>> 5fe5528a19ea5298fed082c9351605a6921abd99
 const Footer = () => {
   return (
     <>
@@ -27,6 +34,7 @@ const Footer = () => {
         </Routes>
       </div>
 
+<<<<<<< HEAD
       <div className='container footer-main-container  '>
          <div className='   footer-child-container pt50'>
             <div className='footer-div-1 pr50 pl20 '>
@@ -68,10 +76,28 @@ const Footer = () => {
               <li>
                 
                 <Link  to="/ Footer" className="footer-department-page-link text-white">
+=======
+      <div className="container footer-main-container">
+        <div className="inline-around  footer-child-container pt50">
+          <div className="footer-div-1 w-20">
+            <img className="footer-logo" src={logo} alt={"no data"} />
+            <p className="f-18 f-w500 font-fmly text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates officiis, voluptate laudantium dicta,dolorum adipisci
+              totam aspernatur? At iusto rerum hic vero labore.
+            </p>
+          </div>
+          <div className="footer-div-2 w-25">
+            <h1>Departments</h1>
+            <ul className="department-link-element">
+              <li>
+                <Link to="/ Footer" className="footer-department-page-link">
+>>>>>>> 5fe5528a19ea5298fed082c9351605a6921abd99
                   Medicine
                 </Link>
               </li>
               <li>
+<<<<<<< HEAD
                 <Link to="/ Footer" className="footer-department-page-link text-white">
                    Neurology
                 </Link>
@@ -80,6 +106,15 @@ const Footer = () => {
                 <Link to="/ Footer" className="footer-department-page-link text-white">
                  Eye Care
 
+=======
+                <Link to="/ Footer" className="footer-department-page-link">
+                  Neurology
+                </Link>
+              </li>
+              <li>
+                <Link to="/ Footer" className="footer-department-page-link">
+                  Eye Care
+>>>>>>> 5fe5528a19ea5298fed082c9351605a6921abd99
                 </Link>
               </li>
               <li>
@@ -88,6 +123,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+<<<<<<< HEAD
                 <Link to="/ Footer" className="footer-department-page-link text-white">
                 Dental Care
                 </Link>
@@ -166,9 +202,24 @@ const Footer = () => {
          <div className='text-white footer-copyright-container mt50'>
             Copyright &#169; 2023 Medic. All rights reserved.
          </div>
+=======
+                <Link to="/ Footer" className="footer-department-page-link">
+                  Dental Care
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-div-3 w-25">
+            <h1>Opening Hours</h1>
+          </div>
+          <div className="footer-div-4 w-25">
+            <h1>Get In Touch</h1>
+          </div>
+        </div>
+>>>>>>> 5fe5528a19ea5298fed082c9351605a6921abd99
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
