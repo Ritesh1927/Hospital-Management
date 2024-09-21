@@ -1,15 +1,75 @@
 .footer-main-container{
-    background-color: #122738;
-    height: 70vh;
+    background-color:  #28285E;
+    height: 78vh;
+     
+     
 }
+.footer-child-container{
+    display: grid;
+    grid-template-columns: 29% 25% 20% 25%;
+}
+/* .footer-div-1{
+    background-color: antiquewhite;
+}
+.footer-div-2{
+    background-color: rgb(157, 204, 170);
+}
+.footer-div-3{
+    background-color: rgb(183, 168, 201);
+}
+.footer-div-4{
+    background-color: rgb(157, 161, 144);
+} */
  
 .footer-logo{
     width: 40%;
 }
+.footer-social-icon-parent{
+  gap: 10px;
+
+}
+.footer-social-child-cont-1{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #5b6798;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.footer-heading{
+    color: #BFBD1F;
+}
  
 .department-link-element{
     list-style: none;
+   line-height: 35px;
 }
 .footer-department-page-link{
     text-decoration: none;
+}
+.opening-hours-child-wrapper{
+    line-height: 45px;
+    border-bottom: 2px solid #BFBD1F;
+}
+.opening-hours-child-wrapper-lst{
+    line-height: 45px;
+    
+}
+.footer-contact-bar-wrapper{
+    line-height: 32px;
+}
+.footer-contact-icon{
+     color: #BFBD1F;
+}
+.contact-mail-wrapper{
+    text-decoration: none;
+}
+.footer-copyright-container{
+
+    height: 12vh;
+    background-color: rgb(33, 32, 32);
+    text-align: center;
+    align-content: center;
 }

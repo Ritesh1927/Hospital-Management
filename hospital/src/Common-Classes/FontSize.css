@@ -2,6 +2,9 @@
 .text-white{
     color: #ffffff;
 }
+.text-black{
+    color:rgb(37, 35, 35);
+}
 
 .heading-xs {
     font-size: 20px;
@@ -49,4 +52,10 @@
 
 .f-20 {
     font-size: 20px;
+}
+.f-22{
+    font-size: 22px;
+}
+.f-42{
+    font-size: 42px;
 }
