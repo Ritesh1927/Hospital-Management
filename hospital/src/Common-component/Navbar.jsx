@@ -69,6 +69,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+          <button className="appoitnment-btn">Get Appoitnment </button>
           <div className="nav-icon" onClick={handleClick}>
             {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
 
