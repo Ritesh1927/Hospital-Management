@@ -4,8 +4,8 @@ import Footer from "../Common-component/Footer";
 function Index() {
   return (
     <div>
-      {/* <Navbar /> */}
-      <Footer/>
+      <Navbar />
+      {/* <Footer /> */}
     </div>
   );
 }
