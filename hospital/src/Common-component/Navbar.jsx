@@ -60,6 +60,17 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 exact
+                to="/donation"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Donation
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
                 to="/contact"
                 activeClassName="active"
                 className="nav-links"

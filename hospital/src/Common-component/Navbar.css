@@ -70,8 +70,8 @@
     list-style: none;
     text-align: center;
     justify-content: space-evenly;
-    margin-right: 2rem;
-    width: 60%;
+    margin-right: 5rem;
+    width: 50%;
 }
 
 .appoitnment-btn {
@@ -121,7 +121,7 @@
 
 .nav-icon {
     display: none;
-    color: #f5b921;
+    color: #28285E;
 }
 
 .nav-icon .icon {
@@ -136,7 +136,7 @@
         display: flex;
         flex-direction: column;
         width: 70%;
-        border-top: 1pxsolid #fff;
+        border-top: 1px solid #fff;
         position: absolute;
         top: 80px;
         left: -110%;
@@ -145,7 +145,7 @@
     }
 
     .nav-menu.active {
-        background: #1f5156;
+        background: #28285E;
         left: 0px;
         opacity: 1;
         transition: all 0.5s ease;
@@ -154,7 +154,8 @@
     }
 
     .nav-item .active {
-        color: #ffdd40;
+        color: #fff;
+        border: 1px solid #fff;
         border: none;
     }
 
@@ -162,6 +163,7 @@
         padding: 1.5rem;
         width: 100%;
         display: table;
+        color: #fff;
     }
 
     .nav-logo .icon {
@@ -178,6 +180,6 @@
         width: 2rem;
         height: 2rem;
         cursor: pointer;
-        color: #ffdd40;
+        color: #28285E;
     }
 }
