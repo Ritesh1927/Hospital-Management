@@ -60,6 +60,17 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 exact
+                to="/donation"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Donation
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
                 to="/contact"
                 activeClassName="active"
                 className="nav-links"
@@ -69,6 +80,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+          <button className="appoitnment-btn">Get Appoitnment </button>
           <div className="nav-icon" onClick={handleClick}>
             {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
 

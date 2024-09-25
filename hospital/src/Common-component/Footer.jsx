@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
 import React from 'react'
 import "./Footer.css"
 import{Link ,Routes,Route} from "react-router-dom"
@@ -9,6 +12,7 @@ import { FaYoutube } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdOutlineEmail } from "react-icons/md";
+<<<<<<< HEAD
 import { MdOutlineAddLocation } from "react-icons/md";
 
 
@@ -21,6 +25,9 @@ import "./Footer.css";
 import { Link, Routes, Route } from "react-router-dom";
 import logo from "../assets/Icons/hospital-logo.webp";
 >>>>>>> 5fe5528a19ea5298fed082c9351605a6921abd99
+=======
+import { MdOutlineAddLocation } from "react-icons/md";import logo from "../assets/Icons/hospital-logo.webp"
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
 const Footer = () => {
   return (
     <>
@@ -32,10 +39,15 @@ const Footer = () => {
           <Route path="/Footer" element={<Footer />}></Route>
           <Route path="/Footer" element={<Footer />}></Route>
         </Routes>
+<<<<<<< HEAD
       </div>
 
 <<<<<<< HEAD
       <div className='container footer-main-container  '>
+=======
+      </div> 
+       <div className='container footer-main-container  '>
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
          <div className='   footer-child-container pt50'>
             <div className='footer-div-1 pr50 pl20 '>
               <img className='footer-logo' src={logo} alt={"no data"} />
@@ -66,13 +78,18 @@ const Footer = () => {
                     <i className='text-white f-18 '>< GrInstagram/></i>
                   </a>
                 </div>
+<<<<<<< HEAD
 
               </div>
                
+=======
+              </div>
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
             </div>
             <div className='footer-div-2  pl20'>
                 <h1 className='footer-heading'>Departments</h1>
             <ul className="department-link-element mt40">
+<<<<<<< HEAD
               <li>
                 
                 <Link  to="/ Footer" className="footer-department-page-link text-white">
@@ -93,10 +110,15 @@ const Footer = () => {
               <li>
                 <Link to="/ Footer" className="footer-department-page-link">
 >>>>>>> 5fe5528a19ea5298fed082c9351605a6921abd99
+=======
+              <li>
+              <Link  to="/ Footer" className="footer-department-page-link text-white">
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
                   Medicine
                 </Link>
               </li>
               <li>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <Link to="/ Footer" className="footer-department-page-link text-white">
                    Neurology
@@ -119,10 +141,25 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/ Footer" className="footer-department-page-link text-white">
+=======
+              <Link to="/ Footer" className="footer-department-page-link text-white">
+                   Neurology
+                </Link>
+              </li>
+              <li>
+              <Link to="/ Footer" className="footer-department-page-link text-white">
+                 Eye Care
+
+                </Link>
+              </li>
+              <li>
+              <Link to="/ Footer" className="footer-department-page-link text-white">
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
                   Cardiology
                 </Link>
               </li>
               <li>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <Link to="/ Footer" className="footer-department-page-link text-white">
                 Dental Care
@@ -217,9 +254,89 @@ const Footer = () => {
           </div>
         </div>
 >>>>>>> 5fe5528a19ea5298fed082c9351605a6921abd99
+=======
+              <Link to="/ Footer" className="footer-department-page-link text-white">
+                Dental Care
+                </Link>
+              </li>
+            </ul>
+            </div>
+            <div className='footer-div-3 pr30'>
+                <h1 className='footer-heading'>Opening Hours</h1>
+                <div className='opening-hours-child-wrapper text-white inline-between mt40'>
+                  <div>
+                    <p>Mon-Tue:</p>
+                  </div>
+                  <div>
+                    <p>6:00AM-10:00PM</p>
+                  </div>
+                  
+                </div>
+                <div className='opening-hours-child-wrapper text-white inline-between'>
+                  <div>
+                    <p>Wed-Thu:</p>
+                  </div>
+                  <div>
+                    <p>6:00AM-10:00PM</p>
+                  </div>
+                </div>
+                <div className='opening-hours-child-wrapper text-white inline-between'>
+                  <div>
+                    <p>Fri:</p>
+                  </div>
+                  <div>
+                    <p>6:00AM-04:00PM</p>
+                  </div>
+                </div>
+                <div className='opening-hours-child-wrapper-lst text-white inline-between'>
+                  <div>
+                    <p>Sun:</p>
+                  </div>
+                  <div>
+                    <p> Closed</p>
+                  </div>
+                </div>
+            </div>
+            <div className='footer-div-4 pl50'>
+                <h1 className='footer-heading'>Get In Touch</h1>
+                <div className='mt40 footer-contact-bar-wrapper text-white' >
+                <div className='inline'>
+                  <div className='mt2'>
+                    <i className='mr10 footer-contact-icon'><BiSolidPhoneCall/></i>
+                  </div>
+                  <div>
+                    <h4>Hotline:</h4>
+                    <p>+123-456-789</p>
+                  </div>
+                </div>
+                <div className='inline'>
+                  <div className='mt2'>
+                    <i className='mr10 footer-contact-icon' ><MdOutlineEmail/></i>
+                  </div>
+                  <div>
+                    <h4>Email:</h4>
+                    <p> <a className='text-white contact-mail-wrapper' href="#">hello@example.com</a></p>
+                  </div>
+                </div>
+                <div className='inline '>
+                  <div className='mt2'>
+                    <i className='mr10 footer-contact-icon  '><MdOutlineAddLocation/></i>
+                  </div>
+                  <div>
+                    <h4>Address:</h4>
+                    <p> 124, Western Road, Melbourne Australia</p>
+                  </div>
+                </div>
+                 </div>
+            </div>
+         </div>
+         <div className='text-white footer-copyright-container mt50'>
+            Copyright &#169; 2023 Medic. All rights reserved.
+         </div>
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

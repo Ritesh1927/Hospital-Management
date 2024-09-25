@@ -1,0 +1,102 @@
+.health-service-main-container {
+    width: 100%;
+    height: 100%;
+    background-color: #28285E;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.health-service-heading-container {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.health-heading-span {
+    color: forestgreen;
+}
+
+.health-service-summary-container {
+    color: #BFBD1F;
+}
+
+.health-service-parent-div-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 35px;
+
+}
+
+.medicine-img-container {
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    background-color: aliceblue;
+    /* background-color: coral; */
+
+}
+
+.medicine-img-container img {
+    width: 100%;
+}
+
+.health-service-child {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    /* border: 2px solid orchid; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+
+.health-service-read-more-link {
+    text-decoration: none;
+    color: forestgreen;
+
+}
+
+.health-service-read-more-link:hover {
+    color: darkgreen;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #d0be82;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 6px;
+    opacity: 0.3;
+
+
+}
+
+.health-service-child:hover .overlay {
+    height: 100%;
+
+}
+
+.health-service-read-more-overlay {
+    position: absolute;
+    bottom: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(56, 18, 206);
+    text-align: center;
+    left: 145px;
+}

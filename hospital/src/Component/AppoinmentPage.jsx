@@ -75,5 +75,4 @@ const AppoinmentPage = () => {
     </>
   )
 }
-
 export default AppoinmentPage

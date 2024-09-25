@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 .footer-main-container{
+=======
+.footer-main-container{   
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
     background-color:  #28285E;
     height: 78vh;
      
      
+<<<<<<< HEAD
 }
 .footer-child-container{
     display: grid;
@@ -29,6 +34,16 @@
 
 }
 .footer-social-child-cont-1{
+=======
+}.footer-child-container{
+    display: grid;
+    grid-template-columns: 29% 25% 20% 25%;
+}.footer-logo{
+    width: 40%;
+}.footer-social-icon-parent{
+    gap: 10px;
+  }.footer-social-child-cont-1{
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -36,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 }
  
 .footer-heading{
@@ -58,6 +74,22 @@
     
 }
 .footer-contact-bar-wrapper{
+=======
+}.footer-heading{
+    color: #BFBD1F;
+}.department-link-element{
+    list-style: none;
+   line-height: 35px;
+}.footer-department-page-link{
+    text-decoration: none;
+}.opening-hours-child-wrapper{
+    line-height: 45px;
+    border-bottom: 2px solid #BFBD1F;
+}.opening-hours-child-wrapper-lst{
+    line-height: 45px;
+    
+}.footer-contact-bar-wrapper{
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
     line-height: 32px;
 }
 .footer-contact-icon{
@@ -67,7 +99,10 @@
     text-decoration: none;
 }
 .footer-copyright-container{
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96d14aba3892b71d43610c42a96f0ef6d3f20ae6
     height: 12vh;
     background-color: rgb(33, 32, 32);
     text-align: center;
