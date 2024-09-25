@@ -11,7 +11,7 @@ const Cards = () => {
   return (
     <>
       <h1 className="text-center mt35 heading-lg">Our Expert Doctor's</h1>
-      <main>
+      <main className="Main-cards-container-wrapper">
         <div className="card">
           <img className="cards-img " src={Doc2} alt="" />
           <div className="cards-overlay">

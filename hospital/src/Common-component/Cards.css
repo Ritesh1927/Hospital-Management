@@ -1,4 +1,4 @@
-main {
+.Main-cards-container-wrapper {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -71,7 +71,7 @@ main {
 }
 
 @media (max-width: 860px) {
-    main {
+    .Main-cards-container-wrapper {
         flex-wrap: wrap;
     }
 

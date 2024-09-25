@@ -25,13 +25,14 @@
 .health-service-parent-div-container {
     display: flex;
     flex-wrap: wrap;
-    
+
     gap: 35px;
 
 }
 
 .medicine-img-container {
-    width: 100px;
+    width: 130px;
+    height: 130px;
     margin: auto;
     border-radius: 50%;
     text-align: center;
@@ -42,7 +43,8 @@
 }
 
 .medicine-img-container img {
-    width: 100%;
+    width: 70%;
+    object-fit: cover;
 }
 
 .health-service-child {
