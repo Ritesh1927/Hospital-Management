@@ -1,4 +1,4 @@
-.health-service-main-container{
+.health-service-main-container {
     width: 100%;
     height: 100%;
     background-color: #28285E;
@@ -6,42 +6,48 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.health-service-heading-container{
+
+.health-service-heading-container {
     text-align: center;
     width: 60%;
     margin: auto;
     color: #ffffff;
 }
-.health-heading-span{
+
+.health-heading-span {
     color: forestgreen;
 }
-.health-service-summary-container{
+
+.health-service-summary-container {
     color: #BFBD1F;
 }
-.health-service-parent-div-container{
+
+.health-service-parent-div-container {
+    display: flex;
     flex-wrap: wrap;
-    row-gap: 25px;
     
+    gap: 35px;
+
 }
-.medicine-img-container{
-    width: 30%;
-    height: 32%;
+
+.medicine-img-container {
+    width: 100px;
     margin: auto;
     border-radius: 50%;
     text-align: center;
     align-content: center;
     background-color: aliceblue;
     /* background-color: coral; */
-     
+
 }
-.medicine-img-container img{
-    width:77%;
-    height: 70px;
-     
+
+.medicine-img-container img {
+    width: 100%;
 }
-.health-service-child{
+
+.health-service-child {
     position: relative;
-    width: 30%;
+    width: 350px;
     height: 350px;
     /* border: 2px solid orchid; */
     display: flex;
@@ -54,36 +60,38 @@
 }
 
 
-.health-service-read-more-link{
+.health-service-read-more-link {
     text-decoration: none;
     color: forestgreen;
-    
+
 }
 
-.health-service-read-more-link:hover{
-    color:darkgreen;
+.health-service-read-more-link:hover {
+    color: darkgreen;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background-color:  #d0be82;
+    background-color: #d0be82;
     overflow: hidden;
     width: 100%;
     height: 0;
-    transition:.5s ease;
+    transition: .5s ease;
     border-radius: 6px;
     opacity: 0.3;
-    
-    
-}    
-.health-service-child:hover .overlay{
-    height: 100%;
-      
+
+
 }
-.health-service-read-more-overlay{
+
+.health-service-child:hover .overlay {
+    height: 100%;
+
+}
+
+.health-service-read-more-overlay {
     position: absolute;
     bottom: 25px;
     font-size: 18px;
@@ -92,6 +100,3 @@
     text-align: center;
     left: 145px;
 }
- 
- 
-

@@ -1,53 +1,102 @@
 import React from "react";
 import "./Cards.css";
 import Doc1 from "../assets/Images/Doc1.jpg";
+import Doc3 from "../assets/Images/Doc3.jpg";
+import Doc2 from "../assets/Images/Doc2.jpg";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import Hey1 from "../assets/Images/hey1.avif";
 const Cards = () => {
   return (
     <>
-      <div className="card__collection clear-fix">
-        <div className="cards cards--two">
-          <img src={Doc1} className="img-responsive" alt="Cards Image" />
-          <span className="cards--two__rect"></span>
-          <span className="cards--two__tri"></span>
-          <p>Lucy Grace</p>
-          <ul className="cards__list">
-            <li>
-              <i className="fab fa-facebook-f"></i>
-            </li>
-            <li>
-              <i className="fab fa-twitter"></i>
-            </li>
-            <li>
-              <i className="fab fa-instagram"></i>
-            </li>
-            <li>
-              <i className="fab fa-linkedin-in"></i>
-            </li>
-          </ul>
+      <h1 className="text-center mt35 heading-lg">Our Expert Doctor's</h1>
+      <main>
+        <div className="card">
+          <img className="cards-img " src={Doc2} alt="" />
+          <div className="cards-overlay">
+            <div className="card-content">
+              <h1 className="card-heading">Dr. Anna</h1>
+              <h3 className="mt5">Internist, General Practitioner </h3>
+              <div className="mt10 contact-links ">
+                <a className="F-icons-links" href="">
+                  {" "}
+                  <i>
+                    <FaFacebook className="F-icons" />
+                  </i>
+                </a>
+
+                <a className="F-icons-links" href="">
+                  <i>
+                    <FaSquareInstagram className="F-icons" />
+                  </i>
+                </a>
+                <a className="F-icons-links" href="">
+                  <i>
+                    <FaLinkedin className="F-icons" />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="cards cards--three">
-          <img src={Doc1} className="img-responsive" alt="" />
-          <span className="cards--three__rect-1">
-            <span className="shadow-1"></span>
-            <p>Chris Levnon</p>
-          </span>
-          <span className="cards--three__rect-2">
-            <span className="shadow-2"></span>
-          </span>
-          <span className="cards--three__circle"></span>
-          <ul className="cards--three__list">
-            <li>
-              <i className="fab fa-facebook-f"></i>
-            </li>
-            <li>
-              <i className="fab fa-twitter"></i>
-            </li>
-            <li>
-              <i className="fab fa-linkedin-in"></i>
-            </li>
-          </ul>
+        <div className="card">
+          <img className="cards-img " src={Doc3} alt="" />
+          <div className="cards-overlay">
+            <div className="card-content">
+              <h1 className="card-heading">Dr. Andrew</h1>
+              <h3 className="mt5">Internist, Orthopedic Surgeon </h3>
+              <div className="mt10 contact-links ">
+                <a className="F-icons-links" href="">
+                  {" "}
+                  <i>
+                    <FaFacebook className="F-icons" />
+                  </i>
+                </a>
+
+                <a className="F-icons-links" href="">
+                  <i>
+                    <FaSquareInstagram className="F-icons" />
+                  </i>
+                </a>
+                <a className="F-icons-links" href="">
+                  <i>
+                    <FaLinkedin className="F-icons" />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+        <div className="card">
+          <img className="cards-img " src={Doc1} alt="" />
+          <div className="cards-overlay">
+            <div className="card-content">
+              <h1 className="card-heading">Dr. Anthony</h1>
+              <h3 className="mt5">Surgeon, Сardiologist </h3>
+              <div className="mt10 contact-links ">
+                <a className="F-icons-links" href="">
+                  {" "}
+                  <i>
+                    <FaFacebook className="F-icons" />
+                  </i>
+                </a>
+
+                <a className="F-icons-links" href="">
+                  <i>
+                    <FaSquareInstagram className="F-icons" />
+                  </i>
+                </a>
+                <a className="F-icons-links" href="">
+                  <i>
+                    <FaLinkedin className="F-icons" />
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </>
   );
 };
