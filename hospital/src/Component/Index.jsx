@@ -6,6 +6,8 @@ import AppoinmentPage from "./AppoinmentPage";
 import HealthService from "./HealthService";
 import WelcomePage from "./WelcomePage";
 import Cards from "../Common-component/Cards";
+import FeedBack from "./FeedBack";
+import Carousel from "./Carousel";
 function Index() {
   return (
     <div className="Project-wrappper-container">
@@ -13,7 +15,10 @@ function Index() {
       <WelcomePage />
       <Cards />
       <HealthService />
+      <Carousel />
+      {/* <FeedBack /> */}
       <AppoinmentPage />
+
       <Footer />
     </div>
   );

@@ -1,4 +1,4 @@
-.Appoinment-background-img{
+.Appoinment-background-img {
     /* width: 100%;
     height: 800px; */
     background-size: 100% 100%;
@@ -6,14 +6,16 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: 0.8;
-     
+
 }
-.Appointment-parent-container{
+
+.Appointment-parent-container {
     width: 90%;
     margin: auto;
     text-align: center;
 }
-.Appointment-child-container{
+
+.Appointment-child-container {
     width: 70%;
     margin: auto;
     background-color: rgba(40, 39, 39, 0.438);
@@ -21,17 +23,20 @@
     margin-top: 40px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-   
+
 }
-.Appointment-child-1-container{
+
+.Appointment-child-1-container {
     display: grid;
-    grid-template-columns:  repeat(2, 1fr);
-     row-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
 }
-.Appointment-input-container-1{
-    color:#ffffff;
+
+.Appointment-input-container-1 {
+    color: #ffffff;
 }
-.Appointment-input-container-1 input{
+
+.Appointment-input-container-1 input {
     width: 60%;
     height: 7vh;
     border: 2px solid #040438;
@@ -41,14 +46,16 @@
     font-size: 18px;
     background-color: #ffffff;
     cursor: pointer;
-    
+
 }
-.Appointment-input-container-1 ::placeholder{
+
+.Appointment-input-container-1 ::placeholder {
     color: black;
     font-size: 18px;
-    color:  #0a0a0a;
+    color: #0a0a0a;
 }
-.Appointment-input-container-5 select{
+
+.Appointment-input-container-5 select {
     width: 75%;
     height: 7vh;
     border: 2px solid #040438;
@@ -57,43 +64,45 @@
     padding: 4px;
     font-size: 18px;
 }
-.Appointment-input-container-6{
+
+.Appointment-input-container-6 {
     display: flex;
     justify-content: center;
-    
-    
-    
+
+
+
 }
-.Appointment-input-container-6 textarea{
+
+.Appointment-input-container-6 textarea {
     align-items: baseline;
-     background-color:  white;
-     width: 88%;
-     height: 30vh;
-     padding: 5px;
-     font-size: 22px;
-     outline: none;
-     border-radius: 4px;
-    border:  2px solid rgb(11, 11, 11);
+    background-color: white;
+    width: 88%;
+    padding: 5px;
+    font-size: 22px;
+    outline: none;
+    border-radius: 4px;
+    border: 2px solid rgb(11, 11, 11);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.Appointment-input-container-6 ::placeholder{
+
+.Appointment-input-container-6 ::placeholder {
     font-size: 22px;
     color: black;
-    
+
 }
-.Appointment-form-submit-button button{
-    width: 18%;
-    height: 6vh;
+
+.Appointment-form-submit-button button {
+    padding: 10px 40px;
     background-color: black;
     outline: none;
     border: 2px solid black;
     border-radius: 6px;
     font-size: 18px;
-    color:  white;
+    color: white;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
- 
-.Appointment-form-submit-button button:hover{
+
+.Appointment-form-submit-button button:hover {
     background-color: rgb(14, 70, 68);
     color: #ffffff;
     transition-duration: 1s;
